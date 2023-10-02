@@ -38,7 +38,7 @@ pip install -r requirements.txt
 3. **Visualization**: Run the Streamlit dashboard for interactive data exploration:
 
 ```
-streamlit run dashboard/app.py
+streamlit run dashboard/dashboard.py
 ```
 Access the dashboard in your web browser at `http://localhost:8501`.
 
