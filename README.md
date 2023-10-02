@@ -1,5 +1,7 @@
 # Air Quality Data Analysis with Python Dicoding
 
+![Air Quality Dashboard](dashboard.gif)
+
 ## Table of Contents
 - [Overview](#overview)
 - [Project Structure](#project-structure)
