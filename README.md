@@ -43,7 +43,7 @@ streamlit run dashboard/app.py
 Access the dashboard in your web browser at `http://localhost:8501`.
 
 ## Data Sources
-The project uses air quality data from Belajar Analisis Data dengan Python's Final Project from Dicoding (https://drive.google.com/file/d/1RhU3gJlkteaAQfyn9XOVAz7a5o1-etgr/view).
+The project uses air quality data from ![Belajar Analisis Data dengan Python's Final Project offered by Dicoding] (https://drive.google.com/file/d/1RhU3gJlkteaAQfyn9XOVAz7a5o1-etgr/view).
 
 ## Exploratory Data Analysis
 Summarize key findings and insights from the EDA process.
