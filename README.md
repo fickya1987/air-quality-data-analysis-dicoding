@@ -47,4 +47,4 @@ The project uses air quality data from Belajar Analisis Data dengan Python's Fin
 Summarize key findings and insights from the EDA process.
 
 ## Visualization
-Include screenshots and descriptions of visualizations created by the Streamlit dashboard.
+Include the visualizations created by the Streamlit dashboard.
