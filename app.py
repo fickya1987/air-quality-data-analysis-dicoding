@@ -2,9 +2,10 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
-import plotly.colors as pc
+import plotly.colors as PC
 
-data = pd.read_csv('main_data.csv')
+url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTXFKefF7-wy_GWu-tWyI9BFW_HYNB16mGO5yCkQ57I_JraswJO6LHmXEpMjE4myWB_nH2bPP--sQwm/pub?gid=0&single=true&output=csv'
+data = pd.read_csv(url)
 data['datetime'] = pd.to_datetime(data['datetime'])
 
 pollutant_parameters = list(data.columns[:6])
