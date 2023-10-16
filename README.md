@@ -1,8 +1,8 @@
 # Air Quality Data Analysis with Python - Dicoding
 
-[Stramlit Dashboard](https://air-quality-data-analysis-dicoding.streamlit.app/)
-
 ![Air Quality Dashboard](dashboard.gif)
+
+[Stramlit Dashboard](https://air-quality-data-analysis-dicoding.streamlit.app/)
 
 ## Table of Contents
 - [Overview](#overview)
