@@ -17,7 +17,7 @@ This project is a data analysis and visualization project focused on air quality
 ## Project Structure
 - `data/`: Directory containing the raw CSV data files.
 - `notebook.py`: Python scripts for data wrangling, EDA, and answering analysis questions.
-- `dashboard/`: The Streamlit dashboard application.
+- `app.py`: The Streamlit dashboard application.
 - `README.md`: This documentation file.
 
 ## Installation
