@@ -52,3 +52,6 @@ Summarize key findings and insights from the EDA process.
 
 ## Visualization
 Include the visualizations created by the Streamlit dashboard.
+
+## Credits
+This project was developed as part of the Dicoding Academy's "Belajar Analisis Data dengan Python" class – a comprehensive course on data analysis with python. Special thanks to Dicoding Academy for providing valuable resources, guidance, and a platform for learning.
