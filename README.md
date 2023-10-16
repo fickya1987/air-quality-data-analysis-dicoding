@@ -2,7 +2,7 @@
 
 ![Air Quality Dashboard](dashboard.gif)
 
-[Stramlit Dashboard](https://air-quality-data-analysis-dicoding.streamlit.app/)
+[Air Quality Dashboard Streamlit App](https://air-quality-data-analysis-dicoding.streamlit.app/)
 
 ## Table of Contents
 - [Overview](#overview)
