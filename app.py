@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
-import plotly.colors as PC
+import plotly.colors as pc
 
 url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTXFKefF7-wy_GWu-tWyI9BFW_HYNB16mGO5yCkQ57I_JraswJO6LHmXEpMjE4myWB_nH2bPP--sQwm/pub?gid=0&single=true&output=csv'
 data = pd.read_csv(url)
@@ -156,6 +156,8 @@ grouped_data = data.groupby(['wd', 'Category']).size().reset_index(name='count')
 grouped_data['Category_Order'] = grouped_data['Category'].map(category_order_mapping)
 grouped_data = grouped_data.sort_values(by=['Category_Order', 'wd'])
 
+# Create a colormap with varying shades of a single color (e.g., blue)
+color_scale = pc.sequential.Blues
 
 # Create polar bar chart
 fig = go.Figure()
