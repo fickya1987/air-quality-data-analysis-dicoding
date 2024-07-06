@@ -156,8 +156,6 @@ grouped_data = data.groupby(['wd', 'Category']).size().reset_index(name='count')
 grouped_data['Category_Order'] = grouped_data['Category'].map(category_order_mapping)
 grouped_data = grouped_data.sort_values(by=['Category_Order', 'wd'])
 
-# Create a colormap with varying shades of a single color (e.g., blue)
-color_scale = pc.sequential.Blues
 
 # Create polar bar chart
 fig = go.Figure()
