@@ -21,7 +21,7 @@ custom_category_order = [
     "Hazardous"
 ]
 
-st.title('Air Quality Dashboard 2013 - 2017 in 12 Beijing Stations')
+st.title('Air Quality Dashboard 2013 - 2017 in PLTU Suralaya')
 with st.sidebar:
     col1, col2, col3 = st.columns(3)
     with col1:
