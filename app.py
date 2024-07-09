@@ -4,7 +4,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 import plotly.colors as pc
 
-url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTXFKefF7-wy_GWu-tWyI9BFW_HYNB16mGO5yCkQ57I_JraswJO6LHmXEpMjE4myWB_nH2bPP--sQwm/pub?gid=0&single=true&output=csv'
+url = 'https://docs.google.com/spreadsheets/d/1vY9Gp-JD-vet9Al42KEN4QsPqlFCSBgcBcmdsJTIxFU/edit?usp=sharing'
 data = pd.read_csv(url)
 data['datetime'] = pd.to_datetime(data['datetime'])
 
