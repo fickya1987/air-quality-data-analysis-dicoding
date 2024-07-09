@@ -4,7 +4,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 import plotly.colors as pc
 
-data = pd.read_csv("")
+data = pd.read_csv("csv.csv")
 data['datetime'] = pd.to_datetime(data['datetime'])
 
 pollutant_parameters = list(data.columns[:6])
