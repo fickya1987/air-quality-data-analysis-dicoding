@@ -4,8 +4,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 import plotly.colors as pc
 
-url = 'https://docs.google.com/spreadsheets/d/1vY9Gp-JD-vet9Al42KEN4QsPqlFCSBgcBcmdsJTIxFU/edit?usp=sharing'
-data = pd.read_csv(url)
+data = pd.read_csv("")
 data['datetime'] = pd.to_datetime(data['datetime'])
 
 pollutant_parameters = list(data.columns[:6])
